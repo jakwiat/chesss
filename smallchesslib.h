@@ -1265,9 +1265,6 @@ uint8_t SCL_recordAdd(SCL_Record r, uint8_t squareFrom,
   return 1;
 }
 
-
-
-
 uint8_t SCL_recordRemoveLast(SCL_Record r)
 {
   uint16_t l = SCL_recordLength(r);
